@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_faq_cards",
+  "info": {
+    "displayName": "FAQ Card",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "text"
+    }
+  }
+}
