@@ -2,7 +2,8 @@
   "collectionName": "components_components_buttons",
   "info": {
     "displayName": "Button",
-    "icon": "cursor"
+    "icon": "cursor",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,8 @@
       "required": true
     },
     "Action": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
