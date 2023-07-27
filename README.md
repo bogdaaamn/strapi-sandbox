@@ -2,7 +2,16 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-## 🐳 Local development
+## ⚙️ Local development (Strapi)
+
+This steps run Strapi in development mode locally, without importing any mock data. This is used for a fresh copy of Strapi and its configuration. 
+
+1. Run `yarn` to install modules and Strapi CLI
+2. Run `yarn build`
+3. Run `yarn develop`
+4. Create admin user
+
+## 🐳 Local development with mock data (Docker)
 
 In order to access a quick API mock, you need `docker` and `docker-compose` installed locally.
 
