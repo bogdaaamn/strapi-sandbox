@@ -7,7 +7,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "db:export": "strapi export --no-encrypt --file database/export",
+    "db:import": "strapi import --force --file database/export.tar.gz"
   },
   "devDependencies": {},
   "dependencies": {
